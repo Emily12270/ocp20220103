@@ -25,5 +25,6 @@ public class IntArrayDemo2 {
 		//sd標準差
 		double sd = Math.sqrt(asum/nums.length);
 		System.out.printf("標準差: %.1f\n", sd);
+		//標
 	}
 }
