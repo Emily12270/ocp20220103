@@ -1,5 +1,7 @@
 package com.study.ocp.day03;
 
+import java.util.Arrays;
+
 public class StringDemo {
 
 	public static void main(String[] args) {
@@ -12,6 +14,12 @@ public class StringDemo {
         //有沒有 off 這個字
 		System.out.printf("off的位置在: %d\n",words.indexOf("off"));
 		//有幾個字 ? 提示:split()
+		String[] wordarray = words.split(" ");
+		System.out.println(Arrays.toString(wordarray));
+		System.out.println(wordarray.length);
+		
+		
+		
 	}
 
 }
