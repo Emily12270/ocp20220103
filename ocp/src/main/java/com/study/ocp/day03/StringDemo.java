@@ -1,0 +1,17 @@
+package com.study.ocp.day03;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		String words = "she sell sea shell on the sea shore";
+		System.out.println(words);
+		//words 的長度
+		System.out.printf("長度: %d\n",words.length());
+		//有沒有 on 這個字
+		System.out.printf("on的位置在: %d\n",words.indexOf("on"));
+        //有沒有 off 這個字
+		System.out.printf("off的位置在: %d\n",words.indexOf("off"));
+		//有幾個字 ? 提示:split()
+	}
+
+}
